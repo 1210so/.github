@@ -248,7 +248,7 @@ cd server
 
 ### 5. 환경 변수 설정
 
-<p>프로젝트 루트 디렉토리에 <code> application.properties</code> 파일을 생성하고 다음 내용을 추가</p>
+<p><code>/src/main/resources</code>에 <code>application.properties</code> 파일을 생성하고 다음 내용을 추가</p>
 
 ```env
 openai.secret-key=YOUR_OPENAI_SECRET_KEY
