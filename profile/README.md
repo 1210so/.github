@@ -168,9 +168,104 @@
 	</ul>
 </p>
 <h3 id="install">설치 가이드</h3>
-<h3 id="contribute">기여 가이드</h3>
 
+### 1. 시스템 요구 사항
 
+<ul>
+  <li><b>Flutter SDK</b>: <code>>=3.3.3 <4.0.0</code></li>
+  <li><b>Android SDK</b>: 최소 버전 <code>21</code></li>
+  <li><b>iOS SDK</b>: iOS 9.0 이상</li>
+  <li><b>Java</b>: <code>21</code></li>
+  <li><b>Spring Boot</b>: <code>3.2.4</code></li>
+  <li><b>MySQL</b>: 5.7 이상</li>
+</ul>
+
+### 2. 프로젝트 클론
+<ol start="2">
+  <li>SpringBoot 클론</li>
+</ol>
+
+```bash
+git clone https://github.com/1210so/server.git
+cd server
+```
+
+<ol start="2">
+  <li>Flutter 클론</li>
+</ol>
+
+```bash
+git clone https://github.com/1210so/flutter.git
+cd flutter
+```
+
+### 3. Flutter 앱 설정
+
+<ol>
+  <li>Flutter SDK를 설치하고 환경 변수를 설정합니다. (<a href="https://docs.flutter.dev/get-started/install">Flutter 설치 가이드</a> 참조)</li>
+  <li>필요한 패키지 설치</li>
+</ol>
+
+```bash
+flutter pub get
+```
+
+<ol start="3">
+  <li>Android 또는 iOS 기기에서 앱을 실행</li>
+</ol>
+
+```bash
+flutter run
+```
+
+### 4. Spring Boot 백엔드 설정
+
+<ol>
+  <li>프로젝트의 <code>server</code> 디렉토리로 이동</li>
+</ol>
+
+```bash
+cd server
+```
+
+<ol start="2">
+  <li>필요한 의존성을 설치</li>
+</ol>
+
+```bash
+./mvnw clean install
+```
+
+<ol start="3">
+  <li>Spring Boot 애플리케이션을 실행</li>
+</ol>
+
+```bash
+./mvnw spring-boot:run
+```
+
+<p>참고: 현재는 데이터베이스 연결이 설정되지 않아, 메모리 기반 저장소를 사용하여 데이터를 관리하고 있음.</p>
+
+### 5. 환경 변수 설정
+
+<p>프로젝트 루트 디렉토리에 <code> application.properties</code> 파일을 생성하고 다음 내용을 추가</p>
+
+```env
+openai.secret-key=YOUR_OPENAI_SECRET_KEY
+openai.url.prompt=https://api.openai.com/v1/chat/completions
+logging.level.root=debug
+server.port=
+
+github.token=YOUR_GITHUB_TOKEN
+github.username=YOUR_GITHUB_USERNAME
+github.repo=resumeMobileHTML
+```
+
+<p><code>YOUR_OPENAI_SECRET_KEY</code>, <code>YOUR_GITHUB_TOKEN</code>, <code>YOUR_GITHUB_USERNAME</code> 값을 실제 환경 변수로 대체</p>
+
+### 6. 이력서 생성 및 테스트
+
+<p>앱이 정상적으로 실행되면, UI를 통해 이력서를 생성하고 공유 기능을 테스트할 수 있음. Flutter 앱에서 이력서를 생성하고 PDF로 출력하거나, 다양한 방식으로 공유 가능.</p>
 
 
 </body>
