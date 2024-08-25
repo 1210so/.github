@@ -1,5 +1,5 @@
 <body>
-	<img src="https://github.com/1210so-openSW/.github/blob/main/profile/readMeHeader_2.png" alt="1, 2, 3처럼 쉬운 이력서 만들기. 12쉽소!">
+	<img src="readMeHeader_2.png" alt="1, 2, 3처럼 쉬운 이력서 만들기. 12쉽소!">
 <br>
 <br>
 <nav>
@@ -86,7 +86,7 @@
 <h2 id="features"> 기능 </h2>
 
 <h3 id="keyfeatures">핵심 기능 </h3>
-<img src="https://github.com/1210so-openSW/.github/blob/main/profile/ResumePage.png" width="50%">
+<img src="ResumePage.png" width="50%">
 <p>
 	<ul>
 		<li>대화형 UI를 통해 이용자의 정보를 제공 받아 이력서를 생성
@@ -145,11 +145,11 @@
 <h3 id="documents"> 산출물 </h3>
 <p>
 	<ol>
-		<li> <img src="https://github.com/1210so-openSW/.github/blob/main/profile/UserFlow.png" width="50%"> <br> 
+		<li> <img src="UserFlow.png" width="50%"> <br> 
 			<b> <a href="https://www.figma.com/design/KkZ2lSWDFk2kUNPaW08VKe/%EC%9D%B4%EB%A0%A5%EC%84%9C-%2F-Flow-Chart?node-id=1-223&t=BXzbot8PLdQ2gWqF-1"> User Flow </a> </b> </li>
-		<li> <img src="https://github.com/1210so-openSW/.github/blob/main/profile/WireFrame.png" width="50%"> <br> 
+		<li> <img src="WireFrame.png" width="50%"> <br> 
 			<b> <a href="https://www.figma.com/design/v0zkPv187KX5iAtcJvVVM6/12%EC%89%BD%EC%86%8C?node-id=0-1&t=5BL4KGdNzo9ESjE3-1"> UI Wireframe </a> </b> </li>
-		<li> <b> ERD </b> </li>
+		<li> <b> FRD </b> </li>
 		<li> <b> 종합 설계 수업 중 발표 자료 </b>
 			<ul> 
 				<li> <a href="https://drive.google.com/file/d/1vWdn5HmQHapiD-9cr7NEcEEaKaIIOe1Z/view?usp=sharing">중간 발표</a> </li>
