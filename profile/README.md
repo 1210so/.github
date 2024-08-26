@@ -27,7 +27,6 @@
 		<li><a href="#opensource">오픈 소스 프로젝트로서의 12쉽소</a><ol>
 				<li><a href="#possibility">도입 및 활용 가능성</a></li>
 				<li><a href="#install">설치 가이드</a></li>
-				<li><a href="#contribute">기여 가이드</a></li>
 			</ol></li>
 	</ol>
 </nav>
@@ -92,7 +91,7 @@
 		<li>대화형 UI를 통해 이용자의 정보를 제공 받아 이력서를 생성
 			<ul>
 				<li> 사용자의 정보를 기반으로 자기소개까지 AI를 통해 자동 생성 </li>
-				<li> 기생성된 모바일/A4 출력 HTML 템플릿에 맞춰 입력받은 정보를 자동으로 채워 넣어 출력 </li>
+				<li> 기생성된 모바일/A4 출력 HTML 템플릿에 입력받은 정보를 자동으로 채워 출력 </li>
 				<li> <a href="https://1210so.github.io/resumeMobileHTML/resume_1_1717997428561.html"> A4 출력용 예시 페이지 </a> </li>
 				<li> <a href="https://1210so.github.io/resumeMobileHTML/emptyResume_1_1717959473281.html"> 모바일 공유용 예시 페이지 </a> </li>
 			</ul>
@@ -166,6 +165,7 @@
 	<ul>
 		<li> 공공기관 : 태블릿과 프린터가 결합된 키오스크 형태로 설치하여 노년층을 위한 이력서 작성 툴로 배치 가능 </li>
 		<li> 비영리기관 : 사회 취약계층 지원 프로그램에 쉽게 통합하여 이력서 작성 교육을 제공 </li>
+		<li> * 12쉽소는 모든 기여를 환영하는 오픈소스 프로젝트입니다. </li>
 	</ul>
 </p>
 <h3 id="install">설치 가이드</h3>
